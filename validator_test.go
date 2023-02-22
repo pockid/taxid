@@ -26,7 +26,7 @@ func TestValidateTaxID(t *testing.T) {
 			name: "Valid Austrian Tax ID",
 			args: args{
 				country: Austria,
-				taxID:   "53609245814",
+				taxID:   "931736581",
 			},
 			wantErr: false,
 		},
